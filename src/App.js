@@ -6,6 +6,7 @@ import Portfolio from "./components/Project";
 import Experiences from "./components/Skill"
 import Contact from "./components/Contact";
 import Education from "./components/Education";
+import JotformChatComponent from "./components/JotformChatComponent";
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
       <Portfolio/>
       <Experiences/>
       <Contact/>
+      <JotformChatComponent/>
         
 
     </div>
