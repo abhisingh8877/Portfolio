@@ -12,7 +12,7 @@ const Social = () => {
           LinkedIn <FaLinkedin size={30} />{" "}
         </>
       ),
-      href: "https://www.linkedin.com/in/abhishek-maurya-0964b522a",
+      href: "https://www.linkedin.com/in/techabhisingh/",
       style: "rounded-tr-md",
     },
     {
@@ -23,7 +23,7 @@ const Social = () => {
           GitHub <FaGithub size={30} />{" "}
         </>
       ),
-      href: "https://github.com/AbhishekMaurya2002",
+      href: "https://github.com/abhisingh8877",
       style: "rounded-tr-md",
     },
     {
@@ -45,7 +45,7 @@ const Social = () => {
           Resume <BsFillPersonLinesFill size={30} />{" "}
         </>
       ),
-      href: "https://drive.google.com/file/d/1AHO_tgL8e7Y1fbloMFx_w103bY2yK2D1/view?usp=drivesdk",
+      href: "https://drive.google.com/file/d/14nNIPWA3WAl-pily454oosQj5RWo1Doi/view?usp=drive_link",
       style: "rounded-tr-md",
       download: true,
     },

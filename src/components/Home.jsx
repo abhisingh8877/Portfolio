@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg from "../assets/picture/Image.png";//this is the way to import image from other folder
+import HeroImg from "../assets/picture/image.jpg";//this is the way to import image from other folder
 import {AiOutlineArrowRight} from "react-icons/ai";
 import {Link} from "react-scroll";// "ai" is first two letters of AiOutlineArrowRight
 const Home = () => {

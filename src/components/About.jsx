@@ -12,7 +12,7 @@ const About = () => {
 
         <p className="text-xl mt-15">
           "I am an undergraduate student at National Institute of Technology
-          Patna, pursuing B-tech in Electrical Engineering. I am a
+          Patna, pursuing B-tech in Electronics and Communication  Engineering. I am a
           coding enthusiast with strong knowledge of Data Structures and
           Algorithms and also having experience in web development. My interests
           include competitive programming, public speaking, and learning about new technologies.

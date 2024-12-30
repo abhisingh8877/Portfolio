@@ -1,27 +1,23 @@
 import React from 'react'
-// import arrayDestruct from "../assets/other/portfolio/arrayDestruct.jpg"
-// import installNode from "../assets/other/portfolio/installNode.jpg"
-// import reactParallax from "../assets/other/portfolio/reactParallax.jpg"
-// import reactSmooth from "../assets/other/portfolio/reactSmooth.jpg"
-// import reactWeather from "../assets/other/portfolio/reactWeather.jpg"
-// import byteverse from "../assets/other/portfolio/byteverse.png"
-import chatapp from "../assets/other/project/chatapp.png";
-import doctorappointment from "../assets/other/project/doctor-appointment.png";
-import spotify from "../assets/other/project/spotify.png";
-// import byteverse from "../assets/other/project/byteverse.png";
-import ecommerce from "../assets/other/project/ecommerce.png";
-import currency from "../assets/other/project/currency converter.png";
+import Gyb_page from "../assets/other/project/Screenshot (472).png";
+import ecommerce from "../assets/other/project/Screenshot (473).png";
+import train_ticket from "../assets/other/project/ticket_booking_app.PNG";
+
 
 
 const Portfolio = () => {
     const portfolios=[
         {
             id:1,
-            src:chatapp
+            src:Gyb_page,
+            web_link:"https://gyb.netlify.app/",
+            Github_link:"https://github.com/abhisingh8877/gihub_gyb"
         },
         {
             id:2,
-            src:doctorappointment
+            src:ecommerce,
+            web_link:"https://shoping-ecommerce-w6re.onrender.com/",
+            Github_link:"https://github.com/abhisingh8877/shoping_ecommerce"
         },
         // {
         //     id:3,
@@ -29,17 +25,13 @@ const Portfolio = () => {
         // },
        
         {
-            id:4,
-            src:spotify
+            id:3,
+            src:train_ticket,
+            web_link:"https://github.com/abhisingh8877/Train_ticket_frontend",
+            Github_link:"https://github.com/abhisingh8877/Train_ticket_backend"
+
         },
-        {
-            id:5,
-            src:currency
-        },
-        {
-            id:6,
-            src:ecommerce
-        },
+        
     ]
 
     
@@ -55,13 +47,13 @@ const Portfolio = () => {
            </div>
            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
             {
-                portfolios.map(({id,src})=>(
+                portfolios.map(({id,src,web_link,Github_link})=>(
                    
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                                 <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
                                 <div className="flex items-center justify-center">
-                                    <button className="w-1/2 px-6 py-3  duration-200 hover:scale-105">Demo</button>
-                                    <button className="w-1/2 px-6 py-3  duration-200 hover:scale-105">Code</button>
+                                    <a className="w-1/2 px-6 py-3  duration-200 hover:scale-105" href={`${web_link}`}>Demo</a>
+                                    <a className="w-1/2 px-6 py-3  duration-200 hover:scale-105" href={`${Github_link}`}>Code</a>
                                 </div>
                     </div>
                    

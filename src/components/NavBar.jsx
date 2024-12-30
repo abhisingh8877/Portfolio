@@ -34,7 +34,7 @@ const NavBar = () => {
     return (
         <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
             <div>
-                <h1 className="text-white-500 font-bold shadow-md text-3xl ml-2">Abhishek Maurya</h1>
+                <h1 className="text-white-500 font-bold shadow-md text-3xl ml-2">Abhishek Kumar</h1>
             </div>
             <ul className="hidden md:flex">
                 {links.map(({ id, link }) => (
